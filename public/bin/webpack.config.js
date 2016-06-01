@@ -66,7 +66,7 @@ plugins.push(new HtmlWebpackPlugin(conf));
 var config = {
   entry: {
     app: './app/index.js',
-    commons: ['react','react-dom','react-router','redux','react-redux'],
+    commons: ['react','react-dom','react-router','classnames'],
   },
   devtool: 'source-map',
   output: {
