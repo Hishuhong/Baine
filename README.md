@@ -4,11 +4,21 @@ The used douban API for Development of React Web applications
 
 ## How Run
 
-本次课程的项目分为了两个部分，Server端和客户端。
+本次课程的项目分为了两个部分, Server端和客户端.
 
 ### Server端
 
-通过命令npm install来安装所需要的依赖环境，你可以运行npm run dev-server来启动开发服务器，在此之前你还需要在启动命令之前安装nodemon（建议全局安装）。
+- 安装项目依赖
+
+`$npm install`
+
+- 安装nodemon(建议全局安装)
+
+`$npm install -g nodemon`
+
+- 启动&重启项目
+
+`$npm run dev-server // 在运行着的界面中直接输入rs即可重启`
 
 ### 客户端
 
