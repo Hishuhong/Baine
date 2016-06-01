@@ -1,0 +1,44 @@
+{
+  "name": "baine",
+  "version": "0.1.0",
+  "description": "基于豆瓣API开发的React Web应用",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "",
+    "dev-server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mulgore/Baine.git"
+  },
+  "keywords": [
+    "react",
+    "douban",
+    "api",
+    "node"
+  ],
+  "author": "icepy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mulgore/Baine/issues"
+  },
+  "homepage": "https://github.com/mulgore/Baine#readme",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-gzip": "^0.1.0",
+    "koa-logger": "^1.3.0",
+    "koa-onerror": "^1.3.1",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "stack-trace": "0.0.9",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.1.1"
+  }
+}
