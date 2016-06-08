@@ -1,9 +1,7 @@
 var router = require('koa-router')();
-var SignC = require('../controller/sign/index');
-var SignoutC = require('../controller/signout/index');
+var CNodeAccesstoken = require('../controller/OAuth/cnode');
 
 router.prefix('/api');
-// router.post('/sign',SignC);
-// router.get('/signout',SignoutC);
+router.post('/accesstoken',CNodeAccesstoken);
 
 module.exports = router;
