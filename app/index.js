@@ -8,7 +8,6 @@ var apis = require('./api/index');
 var mongoose = require('mongoose');
 var resource = require('koa-static');
 var app = koa();
-var ROOTPATH = path.resolve('.');
 var config = require('./config/');
 var winstonLogger = require('./logger/');
 var ROOTPATH = path.resolve('.');
