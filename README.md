@@ -1,6 +1,6 @@
 # Baine
 
-The used douban API for Development of React Web applications
+The used CNode API for Development of React Web applications
 
 ## How Run
 
